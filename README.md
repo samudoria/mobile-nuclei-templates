@@ -16,11 +16,11 @@ Make sure to install **Nuclei** from their [Github repo](https://github.com/proj
 You can now use these templates as follows:
 
 ```
-echo /output_apktool/ | nuclei -t Keys/xxxxx.yaml
+echo /output_apktool/ | nuclei -t Keys/xxxxx.yaml -file
 ```
 
 If you want to run all the templates at once:
 
 ```
-echo /output_apktool/ | nuclei -t Keys/
+echo /output_apktool/ | nuclei -t Keys/ -file
 ```
